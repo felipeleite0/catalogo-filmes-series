@@ -1,0 +1,35 @@
+body {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px;
+  font-family: system-ui, sans-serif;
+  background: #f1f5f9;
+  color: #0f172a;
+}
+
+header,
+.registro {
+  padding: 16px;
+  border-radius: 12px;
+}
+
+header {
+  background: #123d68;
+  color: white;
+}
+
+#lista-catalogo {
+  display: grid;
+  gap: 12px;
+  padding: 0;
+  list-style: none;
+}
+
+.registro {
+  background: white;
+  border: 1px solid #cbd5e1;
+}
+
+.registro h3 {
+  margin: 0;
+}
